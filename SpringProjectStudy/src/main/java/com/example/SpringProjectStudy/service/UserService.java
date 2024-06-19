@@ -1,7 +1,12 @@
 package com.example.SpringProjectStudy.service;
 
+import com.example.SpringProjectStudy.model.User;
+import com.example.SpringProjectStudy.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
+import java.util.Optional;
 
 @Service
 public class UserService {
